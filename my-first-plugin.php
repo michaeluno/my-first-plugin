@@ -2,7 +2,7 @@
 /* Plugin Name: My First Plugin */ 
 
 // Set your own path here
-include( dirname( __FILE__ ) . '/library/my-first-admin-page-framework.min.php' );
+include( dirname( __FILE__ ) . '/library/admin-page-framework/admin-page-framework.php' );
 if ( ! class_exists( 'MyFirstPlugin_AdminPageFramework' ) ) {
     return;
 }
